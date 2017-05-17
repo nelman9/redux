@@ -13,7 +13,7 @@ render() {
 
   return (
 <div>
-value={this.state.term}
+
 <input onChange={event =>this.setState({term:event.target.value})} />
 value is:{this.state.term}
 </div>
