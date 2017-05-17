@@ -1,8 +1,8 @@
 // create first components
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import CountDisplay from './components/countDisplay';
-import Counter from './components/counter';
+import CountDisplay from './components/CountDisplay';
+import Counter from './components/Counter';
 
 
 class Count extends React.Component {
