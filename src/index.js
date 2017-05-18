@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import CountDisplay from './components/CountDisplay';
 import Counter from './components/Counter';
+import SearchBar from './components/search_bar';
 
 
 class Count extends React.Component {
@@ -27,7 +28,9 @@ class Count extends React.Component {
 
   render() {
           return (
+
               <div>
+
                   <h1>Counter</h1>
                   <Counter
                       didAdd={this.counterAdd}
@@ -36,7 +39,11 @@ class Count extends React.Component {
                   <CountDisplay
                       num={this.state.count}
                   />
+
               </div>
+
+
+
           );
       }
   }
